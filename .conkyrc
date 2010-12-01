@@ -30,4 +30,4 @@ show_graph_scale no
 show_graph_range no
 
 TEXT
-$cpu%, $memperc%, ${upspeed eth0}/ ${downspeed eth0}
+${time %d/%m %H:%M}, $cpu%, $memperc%, ${upspeed eth0}/ ${downspeed eth0}

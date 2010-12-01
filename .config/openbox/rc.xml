@@ -478,12 +478,12 @@
   </context>
 
   <context name="Desktop">
-    <mousebind button="Up" action="Click">
-      <action name="DesktopPrevious"/>
-    </mousebind>
-    <mousebind button="Down" action="Click">
-      <action name="DesktopNext"/>
-    </mousebind>
+    <!--<mousebind button="Up" action="Click">-->
+      <!--<action name="DesktopPrevious"/>-->
+      <!--</mousebind>-->
+    <!--<mousebind button="Down" action="Click">-->
+      <!--<action name="DesktopNext"/>-->
+      <!--</mousebind>-->
 
     <mousebind button="A-Up" action="Click">
       <action name="DesktopPrevious"/>

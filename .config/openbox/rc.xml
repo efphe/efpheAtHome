@@ -166,10 +166,16 @@
   <keybind key="A-h">
     <action name="Execute"><command>gmrun</command></action>
   </keybind>
+  <keybind key="A-g">
+    <action name="Execute"><command>gimp</command></action>
+  </keybind>
 
   <!-- Keybindings for windows -->
   <keybind key="A-q">
     <action name="Close"/>
+  </keybind>
+  <keybind key="A-m">
+    <action name="ToggleMaximizeFull"/>
   </keybind>
 
   <!-- Keybindings for window switching -->

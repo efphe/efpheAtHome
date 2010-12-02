@@ -163,6 +163,9 @@
   <keybind key="A-t">
     <action name="Execute"><command>thunderbird</command></action>
   </keybind>
+  <keybind key="A-h">
+    <action name="Execute"><command>gmrun</command></action>
+  </keybind>
 
   <!-- Keybindings for windows -->
   <keybind key="A-q">

@@ -1,6 +1,8 @@
 alignment top_right
 background no
+own_window_colour black
 border_width 1
+default_bar_size 80 24
 cpu_avg_samples 2
 default_color white
 default_outline_color white
@@ -10,9 +12,9 @@ draw_graph_borders yes
 draw_outline no
 draw_shades no
 use_xft yes
-xftfont 123:size=8
-gap_x 5
-gap_y 5
+xftfont 123:size=10
+gap_x 0
+gap_y 0
 minimum_size 5 5
 net_avg_samples 2
 no_buffers yes
@@ -28,6 +30,7 @@ uppercase no
 use_spacer none
 show_graph_scale no
 show_graph_range no
+update_interval 2
 
 TEXT
-${time %d/%m %H:%M}, $cpu%, $memperc%, ${upspeed eth0}/ ${downspeed eth0}
+${if_match $cpu > 80}${color #ff0000}$cpu $color ${else} $cpu% $endif, $memperc%, ${upspeed eth0}/ ${downspeed eth0}

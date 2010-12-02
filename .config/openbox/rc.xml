@@ -88,7 +88,7 @@
   <firstdesk>1</firstdesk>
   <names>
   </names>
-  <popupTime>875</popupTime>
+  <popupTime>400</popupTime>
 </desktops>
 
 <resize>
@@ -102,7 +102,7 @@
 </resize>
 
 <margins>
-  <top>0</top>
+  <top>24</top>
   <bottom>0</bottom>
   <left>0</left>
   <right>0</right>
@@ -152,7 +152,7 @@
     <action name="Execute"><command>konsole</command></action>
   </keybind>
   <keybind key="A-f">
-    <action name="Execute"><command>firefox</command></action>
+    <action name="Execute"><command>firefox-bin</command></action>
   </keybind>
   <keybind key="A-c">
     <action name="Execute"><command>chromium-bin</command></action>
@@ -161,7 +161,7 @@
     <action name="Execute"><command>xchat</command></action>
   </keybind>
   <keybind key="A-t">
-    <action name="Execute"><command>thunderbird</command></action>
+    <action name="Execute"><command>thunderbird-bin</command></action>
   </keybind>
   <keybind key="A-h">
     <action name="Execute"><command>gmrun</command></action>
@@ -559,6 +559,9 @@
   </application>
   <application name="chrome">
     <desktop>5</desktop>
+  </application>
+  <application name="xchat">
+    <desktop>6</desktop>
   </application>
   <application name="thunderbird-bin">
     <desktop>1</desktop>
